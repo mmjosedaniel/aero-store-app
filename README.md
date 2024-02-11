@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Unidad 2: Tarea Grupal - Interfaces de usuario - Seguimiento
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Cree una carpeta que tenga la siguiente estructura
 
-## Available Scripts
+  /su-proyecto
 
-In the project directory, you can run:
+  	/index.html
 
-### `npm start`
+    /index.css
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    /index.js
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+He decidido hacer el trabajo con React, este hace una estructura similar a la que se pide para el ejercicio agregando un archivo App.js.
 
-### `npm test`
+2. Inicie editando el index.html:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Ponga el marcado básico de una página web (https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Getting_started#anatom%C3%ADa_de_un_documento_html).
+- Modifique la presentación de su página web usando solamente el archivo de CSS, cambie los estilos de letra, los colores de fondo, agregue imágenes con margen.
+- Elija una paleta de colores usando la guía de Material Design (https://material.io/design/color/the-color-system.html#color-theme-creation). 
+- Defina una estructura para la página web, por ejemplo, nav bar y footer.
 
-### `npm run build`
+R.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- El marcador basico de una pagina web es creado automaticamente por React, este se encuentra en public/index.html.
+- He agregado tres reglas, las primeras 2 en el selector body para cambiar el color del fondo y el estilo de las letras, la segunda en un selector img para agregar margen a todas las imagenes.
+- He decidido usar la paleta Red 50
