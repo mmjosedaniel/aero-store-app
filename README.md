@@ -24,3 +24,9 @@ R.
 - El marcador basico de una pagina web es creado automaticamente por React, este se encuentra en public/index.html.
 - He agregado tres reglas, las primeras 2 en el selector body para cambiar el color del fondo y el estilo de las letras, la segunda en un selector img para agregar margen a todas las imagenes.
 - He decidido usar la paleta Red 50
+- el navbar y el footer se han añadido en la carpeta components.
+
+3. Edite el archivo Index.js:
+
+- Agregue el código fuente en JS que requiera para añadir las tres funcionalidades definidas en la primera activa para la página web, por ejemplo, un botón que cambie algún aspecto de la página.
+- Agregue los cambios necesarios al archivo HTML y CSS para que por medio de las funcionalidades definidas en JS se hagan los cambios en la página web.
