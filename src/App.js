@@ -21,6 +21,7 @@ function App() {
   return (
     <div className="App">
       <Template>
+        <h2>Daniel Martinez</h2>
         <div className="products-grid">
           {products.map((product) => (
             <ProductCard key={product.id} product={product} />
