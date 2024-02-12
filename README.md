@@ -30,3 +30,7 @@ R.
 
 - Agregue el código fuente en JS que requiera para añadir las tres funcionalidades definidas en la primera activa para la página web, por ejemplo, un botón que cambie algún aspecto de la página.
 - Agregue los cambios necesarios al archivo HTML y CSS para que por medio de las funcionalidades definidas en JS se hagan los cambios en la página web.
+
+R.
+
+El código requerido se encuentra en este repositorio, Se añadió la card, el catálogo y la conección a la API.
