@@ -7,10 +7,7 @@ import Login from "./components/Login";
 
 function App() {
   const [products, setProducts] = useState([]);
-  // eslint-disable-next-line no-unused-vars
   const [isUserLogged, setIsUserLogged] = useState(false);
-
-  //const users = [{ name: "test", password: "test", email: "test@test.test" }];
 
   const getProducts = async () => {
     const response = await fetch("https://fakestoreapi.com/products");
@@ -35,7 +32,7 @@ function App() {
             ))}
           </div>
         ) : (
-          <Login />
+          <Login setIsUserLogged={setIsUserLogged} />
         )}
       </Template>
     </div>
