@@ -1,6 +1,8 @@
 /* eslint-disable react/prop-types */
 import React, { useState } from "react";
 
+import "./index.css";
+
 function Login({ setIsUserLogged }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -26,18 +28,28 @@ function Login({ setIsUserLogged }) {
   };
 
   return (
-    <div>
+    <div className="login-container">
       <form onSubmit={handleLogin}>
-        <div>
+        <div className="form-group">
           <label>Email</label>
 
-          <input type="email" value={email} onChange={handleEmail} />
+          <input
+            type="email"
+            value={email}
+            onChange={handleEmail}
+            placeholder="test@test.test"
+          />
         </div>
 
-        <div>
+        <div className="form-group">
           <label>password</label>
 
-          <input type="password" value={password} onChange={handlePassword} />
+          <input
+            type="password"
+            value={password}
+            onChange={handlePassword}
+            placeholder="test"
+          />
         </div>
 
         <button type="submint">Login</button>
