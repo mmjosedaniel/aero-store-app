@@ -13,3 +13,9 @@
   margin: 20px;
   position: relative;
 }
+
+.car-container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}

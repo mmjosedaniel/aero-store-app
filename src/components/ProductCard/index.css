@@ -1,4 +1,6 @@
 .product-card {
+  display: flex;
+  flex-direction: column;
   border: 1px solid #ffcdd2;
   border-radius: 8px;
   overflow: hidden;
@@ -6,10 +8,18 @@
   width: 300px;
 }
 
+.product-card button {
+  width: 60%;
+  margin-bottom: 20px;
+  margin-top: auto;
+  align-self: center;
+}
+
 .product-image {
-  width: 100%;
+  width: 60%;
   height: 200px;
   object-fit: cover;
+  align-self: center;
 }
 
 .product-info {

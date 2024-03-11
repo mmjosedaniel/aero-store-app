@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Fragment } from "react";
 import "./App.css";
 
 import ProductCard from "./components/ProductCard";
@@ -8,6 +8,7 @@ import Login from "./components/Login";
 function App() {
   const [products, setProducts] = useState([]);
   const [isUserLogged, setIsUserLogged] = useState(false);
+  const [cart, setCart] = useState(0);
 
   const getProducts = async () => {
     const response = await fetch("https://fakestoreapi.com/products");
@@ -26,11 +27,21 @@ function App() {
         <h2>Daniel Martinez</h2>
 
         {isUserLogged ? (
-          <div className="products-grid">
-            {products.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
+          <Fragment>
+            <div className="car-container">
+              <h3 className="">Artículos en el carrito: {cart}</h3>
+            </div>
+
+            <div className="products-grid">
+              {products.map((product) => (
+                <ProductCard
+                  key={product.id}
+                  product={product}
+                  setCart={setCart}
+                />
+              ))}
+            </div>
+          </Fragment>
         ) : (
           <Login setIsUserLogged={setIsUserLogged} />
         )}
