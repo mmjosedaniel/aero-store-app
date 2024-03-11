@@ -34,3 +34,9 @@ R.
 R.
 
 El código requerido se encuentra en este repositorio, Se añadió la card, el catálogo y la conección a la API.
+
+4. Agregar los dos últimos requerimientos.
+
+- Login ha sido agregado.
+- Un contador para simular el carrito fue agregado.
+- los tests han sido agregados.
